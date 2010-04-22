@@ -33,12 +33,15 @@
   <ItemGroup>
     <Compile Include="ConfigModule.cs" />
     <Compile Include="EndpointConfig.cs" />
-    <Compile Include="InMemoryStorage.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="TestMessageHandler.cs" />
     <Compile Include="TransactionScopeMessageSink.cs" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\..\IdempotentConsumer\src\proj\IdempotentConsumer.Autofac\IdempotentConsumer.Autofac.csproj">
+      <Project>{E940BEE9-E242-46CE-ACD6-09546AEC4DD4}</Project>
+      <Name>IdempotentConsumer.Autofac</Name>
+    </ProjectReference>
     <ProjectReference Include="..\..\IdempotentConsumer\src\proj\IdempotentConsumer.Core\IdempotentConsumer.Core.csproj">
       <Project>{0858F05A-5586-46C6-9F03-8D13F6AA5043}</Project>
       <Name>IdempotentConsumer.Core</Name>

@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NServiceBus.MessageSinks.Au
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SendTestMessage", "SendTestMessage\SendTestMessage.csproj", "{070A609B-28C5-4A8C-92FE-0879B39B61B0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IdempotentConsumer.Autofac", "..\IdempotentConsumer\src\proj\IdempotentConsumer.Autofac\IdempotentConsumer.Autofac.csproj", "{E940BEE9-E242-46CE-ACD6-09546AEC4DD4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -49,6 +51,10 @@ Global
 		{070A609B-28C5-4A8C-92FE-0879B39B61B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{070A609B-28C5-4A8C-92FE-0879B39B61B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{070A609B-28C5-4A8C-92FE-0879B39B61B0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E940BEE9-E242-46CE-ACD6-09546AEC4DD4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E940BEE9-E242-46CE-ACD6-09546AEC4DD4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E940BEE9-E242-46CE-ACD6-09546AEC4DD4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E940BEE9-E242-46CE-ACD6-09546AEC4DD4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
